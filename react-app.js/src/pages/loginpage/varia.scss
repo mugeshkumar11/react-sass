@@ -1,0 +1,13 @@
+@mixin headerpoint {
+    font-size: font-size(3)*2px;
+    color: chartreuse;
+};
+
+
+@function font-size($fontsize){
+    // @return{
+    // font-size: $fontsize,
+    // color: $redclolor;
+    // }
+   @return 2 * $fontsize;
+}  

@@ -1,0 +1,11 @@
+$redclolor:red;
+
+
+@import '../loginpage/varia.scss';
+
+
+
+.headerpoint{
+    @include headerpoint;
+    // color: $redclolor;
+}

@@ -1,0 +1,21 @@
+@import "../header/header.scss";
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+    
+    .colorcode{
+    color: $redclolor;
+    font-size: 28px;
+    }
+    .headerlink{
+        color: brown;
+    }
+
+}
+
+.colorcode{
+    color:yellow;
+}
+
